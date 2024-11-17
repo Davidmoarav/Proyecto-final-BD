@@ -1,0 +1,54 @@
+/* Estilos personalizados para la página */
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form input[type="text"], form input[type="password"], form input[type="email"] {
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+form button[type="submit"]:active {
+    background-color: #004085;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
